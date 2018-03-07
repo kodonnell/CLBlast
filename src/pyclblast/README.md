@@ -28,4 +28,8 @@ After installation OpenCL and CLBlast, simply use pip to install PyCLBlast, e.g.
 
     pip install --user pyclblast
 
+NB: If you have Intel OpenCL installed out-of-box, you might need to do something like:
+
+    CPLUS_INCLUDE_PATH=/opt/intel/opencl/include/ pip install pyclblast
+
 To start using the library, browse the [CLBlast](https://github.com/CNugteren/CLBlast) documentation or check out the PyCLBlast samples provides in the `samples` subfolder.
